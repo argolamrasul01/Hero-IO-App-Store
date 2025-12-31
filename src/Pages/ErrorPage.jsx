@@ -19,7 +19,7 @@ const ErrorPage = () => {
             The page you are looking for is not available.
           </p>
           <Link
-            className="bg-[linear-gradient(125.07deg,_#632EE3,_#9F62F2_100%)]
+            className="bg-[linear-gradient(125.07deg,#632EE3,#9F62F2_100%)]
              text-white px-6 py-2 rounded
              hover:opacity-90 transition"
           >

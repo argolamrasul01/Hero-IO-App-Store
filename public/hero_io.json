@@ -8,7 +8,7 @@
     "size": 45,
     "reviews": 18234,
     "ratingAvg": 4.6,
-    "downloads": 5000000,
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 900 },
@@ -26,7 +26,7 @@
     "size": 62,
     "reviews": 11250,
     "ratingAvg": 4.4,
-    "downloads": 3200000,
+    "downloads": 3.2,
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 750 },
@@ -44,7 +44,7 @@
     "size": 38,
     "reviews": 8450,
     "ratingAvg": 4.5,
-    "downloads": 2100000,
+    "downloads": 2.1,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 520 },
@@ -62,7 +62,7 @@
     "size": 120,
     "reviews": 26780,
     "ratingAvg": 4.7,
-    "downloads": 10000000,
+    "downloads": 10,
     "ratings": [
       { "name": "1 star", "count": 800 },
       { "name": "2 star", "count": 1200 },
@@ -80,7 +80,7 @@
     "size": 85,
     "reviews": 35210,
     "ratingAvg": 4.3,
-    "downloads": 15000000,
+    "downloads": 15,
     "ratings": [
       { "name": "1 star", "count": 2200 },
       { "name": "2 star", "count": 3100 },
@@ -98,7 +98,7 @@
     "size": 95,
     "reviews": 9340,
     "ratingAvg": 4.2,
-    "downloads": 1800000,
+    "downloads": 1.8,
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 820 },
@@ -116,7 +116,7 @@
     "size": 70,
     "reviews": 15890,
     "ratingAvg": 4.6,
-    "downloads": 4200000,
+    "downloads": 4.2,
     "ratings": [
       { "name": "1 star", "count": 450 },
       { "name": "2 star", "count": 720 },
@@ -134,7 +134,7 @@
     "size": 40,
     "reviews": 6420,
     "ratingAvg": 4.1,
-    "downloads": 950000,
+    "downloads": 0.95,
     "ratings": [
       { "name": "1 star", "count": 420 },
       { "name": "2 star", "count": 630 },
@@ -152,7 +152,7 @@
     "size": 28,
     "reviews": 22100,
     "ratingAvg": 4.8,
-    "downloads": 8700000,
+    "downloads": 8.7,
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 400 },
@@ -170,7 +170,7 @@
     "size": 150,
     "reviews": 19870,
     "ratingAvg": 4.0,
-    "downloads": 6000000,
+    "downloads": 6,
     "ratings": [
       { "name": "1 star", "count": 2100 },
       { "name": "2 star", "count": 2600 },
@@ -188,7 +188,7 @@
     "size": 55,
     "reviews": 11980,
     "ratingAvg": 4.3,
-    "downloads": 2600000,
+    "downloads": 2.6,
     "ratings": [
       { "name": "1 star", "count": 700 },
       { "name": "2 star", "count": 900 },
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1607082349566-1870b4b1b12b",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJvWOiVtsD08qalIijmyyUlrfElbsDUVS2RQ&s",
     "title": "ShopMate",
     "companyName": "RetailSoft",
     "id": 12,
@@ -206,7 +206,7 @@
     "size": 110,
     "reviews": 28760,
     "ratingAvg": 4.5,
-    "downloads": 9200000,
+    "downloads": 9.2,
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 1800 },
