@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Card = ({ app }) => {
-  const { image, title, ratingAvg, downloads } = app;
+  const { image, title, ratingAvg, downloads, id } = app;
   return (
     <div>
-      <div className="card bg-base-100 max-w-full shadow-sm rounded-lg overflow-hidden hover:scale-105 transition ease-in-out">
+      <Link
+        to={`/apps/${id}`}
+        className="card bg-base-100 max-w-full shadow-sm rounded-lg overflow-hidden hover:scale-105 transition ease-in-out"
+      >
         <figure className="w-full h-48 object-cover">
           <img src={image} alt={title} className="w-full object-cover" />
         </figure>
@@ -26,7 +30,7 @@ const Card = ({ app }) => {
             </div>
           </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };
