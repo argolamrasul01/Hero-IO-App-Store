@@ -8,8 +8,11 @@ const Installation = () => {
     const savedList = JSON.parse(localStorage.getItem("wishlist"));
     if (savedList) setInstalled(savedList);
   }, []);
-  const handleRemove = () => {
-    localStorage.removeItem("wishlist");
+  const handleRemove = (id) => {
+    const existingList = JSON.parse(localStorage.getItem("wishlist"));
+    let updateList = existingList.filter((p) => p.id !== id);
+    setInstalled(updateList);
+    localStorage.setItem("wishlist", JSON.stringify(updateList));
   };
 
   const sortedItem = (() => {
@@ -74,7 +77,7 @@ const Installation = () => {
               </div>
             </div>
             <button
-              onClick={handleRemove}
+              onClick={() => handleRemove(p.id)}
               className="bg-[#00D390] text-white py-3 rounded-sm px-4 font-semibold cursor-pointer"
             >
               Uninstall
