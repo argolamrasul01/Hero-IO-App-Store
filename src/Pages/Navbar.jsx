@@ -60,10 +60,13 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end mr-5">
-        <NavLink className="btn rounded-md text-white bg-[linear-gradient(125.07deg,_rgba(99,46,227,1),_rgba(159,98,242,1)_100%)]">
+        <a
+          href="https://github.com/argolamrasul01"
+          className="btn rounded-md text-white bg-[linear-gradient(125.07deg,_rgba(99,46,227,1),_rgba(159,98,242,1)_100%)]"
+        >
           <Github className="text-white  rounded-full" />
           Contribute
-        </NavLink>
+        </a>
       </div>
     </div>
   );

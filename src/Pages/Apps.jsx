@@ -15,15 +15,15 @@ const Apps = () => {
   return (
     <div>
       <div>
-        <div>
-          <h1>Our All Applications</h1>
-          <p>
+        <div className="text-center mt-10 mb-4">
+          <h1 className="font-bold text-5xl mb-4">Our All Applications</h1>
+          <p className="text-[#627382]">
             Explore All Apps on the Market developed by us. We code for Millions
           </p>
         </div>
         <div>
-          <div>
-            <p>
+          <div className="flex justify-between items-center mx-14 mt-8">
+            <p className="font-semibold text-2xl">
               <span>({appSearch.length})</span> Apps Found
             </p>
             <label className="input">

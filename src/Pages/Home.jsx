@@ -24,22 +24,22 @@ const Home = () => {
           make an impact.
         </p>
         <div>
-          <button className="btn bg-white mr-2">
+          <a href="https://play.google.com/" className="btn bg-white mr-2">
             <img
               className="w-3"
               src="/src/assets/Google_Play_2022_icon.svg.png"
               alt=""
             />
             Google Play
-          </button>
-          <button className="btn bg-white">
+          </a>
+          <a href="https://www.apple.com/app-store/" className="btn bg-white">
             <img
               className="w-4"
               src="/src/assets/App_Store_(iOS).svg.png"
               alt=""
             />
             App Store
-          </button>
+          </a>
         </div>
       </div>
       {/* Hero img */}
