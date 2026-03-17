@@ -4,7 +4,7 @@ import { Link } from "react-router";
 const AppNotFound = () => {
   return (
     <div>
-      <div className="mx-40 my-10">
+      <div className="px-4 md:px-10 lg:px-20 my-10">
         <img
           className="mx-auto mb-4"
           src="/src/assets/App-Error.png"

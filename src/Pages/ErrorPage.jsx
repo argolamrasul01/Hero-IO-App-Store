@@ -7,7 +7,7 @@ const ErrorPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="m-40 mt-6">
+      <div className="px-4 md:px-10 lg:px-20 mt-6">
         <img
           className="mx-auto mb-4"
           src="/src/assets/error-404.png"

@@ -9,8 +9,8 @@ const Home = () => {
 
   return (
     <div>
-      <div className="flex flex-col justify-center items-center mx-20 mb-10 mt-20">
-        <h1 className="text-7xl font-bold text-center mb-2.5">
+      <div className="flex flex-col justify-center items-center px-4 md:px-10 lg:px-20 mb-10 mt-20">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-center">
           We Build <br />{" "}
           <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
             Productive
@@ -45,7 +45,7 @@ const Home = () => {
       {/* Hero img */}
       <div>
         <img
-          className="mx-auto md:w-xl w-md"
+          className="mx-auto w-full max-w-md md:max-w-xl"
           src="/src/assets/hero.png"
           alt="Hero img"
         />
@@ -56,7 +56,7 @@ const Home = () => {
             Trusted by Millions, Built for You
           </h2>
         </div>
-        <div className="flex justify-center items-center gap-20 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
           <div>
             <p>Total Downloads</p>
             <h1 className="text-6xl font-extrabold py-4">29.6M</h1>

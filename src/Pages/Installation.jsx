@@ -33,7 +33,7 @@ const Installation = () => {
         </p>
       </div>
 
-      <div className="flex justify-between items-center mx-14 mt-8">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4 px-4 md:px-14">
         <p className="font-semibold text-2xl">
           <span>{sortedItem.length}</span> Apps Found
         </p>
@@ -47,17 +47,20 @@ const Installation = () => {
               Sort By Size
             </option>
             <option value="size-asc">
-              Smallest <ArrowRight className="w-3" /> Largest
+              Low <ArrowRight className="w-3" /> High
             </option>
             <option value="size-desc">
-              Largest <ArrowRight className="w-3" /> Smallest
+              High <ArrowRight className="w-3" /> Low
             </option>
           </select>
         </label>
       </div>
 
       {sortedItem.map((p) => (
-        <div className="w-full max-w-6xl mx-14 mt-5 mb-2.5">
+        <div
+          key={p.id}
+          className="w-full max-w-6xl mx-auto px-4 md:px-8 mt-5 mb-2.5"
+        >
           <div className="flex items-center justify-between bg-gray-100 p-4 rounded-lg">
             <div className="flex items-center space-x-4">
               <div className="w-14 h-14 bg-gray-300 rounded-md">

@@ -49,20 +49,20 @@ const AppsPreview = () => {
   } = app;
 
   const handleInstall = () => {
-    if (!installed) {
-      setInstalled(true);
-      toast.success("Installed");
-      const existingList = JSON.parse(localStorage.getItem("wishlist"));
-      let updatedList = [];
-      if (existingList) {
-        updatedList = [...existingList, app];
-      } else {
-        updatedList = [app];
-      }
-      localStorage.setItem("wishlist", JSON.stringify(updatedList));
-    } else {
+    const existingList = JSON.parse(localStorage.getItem("wishlist")) || [];
+
+    const alreadyInstalled = existingList.find((item) => item.id === app.id);
+
+    if (alreadyInstalled) {
       toast.info("Already installed");
+      return;
     }
+
+    const updatedList = [...existingList, app];
+    localStorage.setItem("wishlist", JSON.stringify(updatedList));
+
+    setInstalled(true);
+    toast.success("Installed");
   };
 
   return (
